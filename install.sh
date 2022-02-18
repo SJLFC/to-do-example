@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Updating packages"
 sudo apt-get update
+python -m ensurepip --upgrade
 echo "installing Python"
 sudo apt install python3
 echo "installing pip"
