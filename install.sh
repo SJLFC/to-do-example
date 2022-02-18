@@ -6,7 +6,7 @@ sudo apt install python3
 echo "installing pip"
 sudo apt install python3-pip
 echo "creating virtual environment"
-sudo apt install python3.8-venv
+pt install python3.8 python3.8-venv python3-venv
 python3.8 -m venv .env
 source .env/bin/activate
 python --version
