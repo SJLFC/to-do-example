@@ -10,5 +10,3 @@ fi
 
 source .venv/bin/activate
 python3 app.py
-© 2022 GitHub, Inc.
-Terms
